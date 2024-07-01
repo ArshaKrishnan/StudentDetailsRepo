@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 /**
- * Interface used to call other microservice
+ * Interface used to call other microservice and define the Transaction api's
  */
 @FeignClient("TRANSACTIONSERVICE")
 public interface StudentInterface {
